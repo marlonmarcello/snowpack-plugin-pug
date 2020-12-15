@@ -3,12 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "MIT",
+  "homepage": "https://github.com/marlonmarcello/snowpack-plugin-pug/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marlonmarcello/snowpack-plugin-pug.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "snowpack",
+    "pug"
+  ],
+  "author": {
+    "name": "Marlon Marcello",
+    "email": "marlon.marcello@gmail.com"
+  },
   "dependencies": {
     "pug": "^3.0.0"
   }

@@ -18,13 +18,13 @@ Add `snowpack-plugin-pug` to your [Snowpack config file](https://www.snowpack.de
 }
 ```
 
-### Plugin Options
+### Options
 
 You can pass all default [Pug Options](https://pugjs.org/api/reference.html#options) plus:
 
 - `data: object` - Any data that you would like available globaly to templates
 
-#### Example
+### Example
 
 ```json
 {
