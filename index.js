@@ -5,7 +5,7 @@ module.exports = function plugin(snowpackConfig, pluginOptions) {
   const extendsMaps = new Map();
 
   return {
-    name: "snowpack-plugin-pug",
+    name: "@marlonmarcello/snowpack-plugin-pug",
     resolve: {
       input: [".pug"],
       output: [".html"],

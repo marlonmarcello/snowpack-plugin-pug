@@ -1,20 +1,20 @@
-# snowpack-plugin-pug
+# @marlonmarcello/snowpack-plugin-pug
 
 This plugin adds support for the [Pug](https://pugjs.org/) template engine to Snowpack.
 
 ### Install
 
 ```
-npm install --save-dev snowpack-plugin-pug
+npm install --save-dev @marlonmarcello/snowpack-plugin-pug
 ```
 
 ### Usage
 
-Add `snowpack-plugin-pug` to your [Snowpack config file](https://www.snowpack.dev/reference/configuration):
+Add `@marlonmarcello/snowpack-plugin-pug` to your [Snowpack config file](https://www.snowpack.dev/reference/configuration):
 
 ```json
 {
-  "plugins": ["snowpack-plugin-pug"]
+  "plugins": ["@marlonmarcello/snowpack-plugin-pug"]
 }
 ```
 
@@ -30,7 +30,7 @@ You can pass all default [Pug Options](https://pugjs.org/api/reference.html#opti
 {
   "plugins": [
     [
-      "snowpack-plugin-pug",
+      "@marlonmarcello/snowpack-plugin-pug",
       {
         "data": {
           "meta": {

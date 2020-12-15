@@ -1,5 +1,5 @@
 {
-  "name": "snowpack-plugin-pug",
+  "name": "@marlonmarcello/snowpack-plugin-pug",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
