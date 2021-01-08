@@ -41,7 +41,6 @@ You can pass all default [Pug Options](https://pugjs.org/api/reference.html#opti
     [
       "@marlonmarcello/snowpack-plugin-pug",
       {
-        // any pug options you'd like
         "data": {
           "meta": {
             "title": "My website"
