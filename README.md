@@ -4,15 +4,6 @@ This plugin adds support for the [Pug](https://pugjs.org/) template engine to Sn
 
 ### Install
 
-Add a file named `.npmrc` to the root of your project, same level as `package.json`.
-To that file, add the following:
-
-```
-@marlonmarcello:registry=https://npm.pkg.github.com
-```
-
-And then install with npm:
-
 ```
 npm install --save-dev @marlonmarcello/snowpack-plugin-pug
 ```
