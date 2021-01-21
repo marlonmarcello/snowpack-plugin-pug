@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       
-      # Publiush to NPM
+      # Publish to NPM
       - uses: actions/setup-node@v1
         with:
           node-version: 12
@@ -21,7 +21,7 @@ jobs:
           scope: '@marlonmarcello'
       - run: npm publish --access public --@marlonmarcello:registry=https://registry.npmjs.org/
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
       # Publish to GHP
       - uses: actions/setup-node@v1
