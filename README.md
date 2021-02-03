@@ -1,6 +1,6 @@
 # @marlonmarcello/snowpack-plugin-pug
 
-This plugin adds support for the [Pug](https://pugjs.org/) template engine to Snowpack.
+This plugin adds support for the [Pug](https://pugjs.org/) template engine to [Snowpack](https://www.snowpack.dev/).
 
 ### Install
 
@@ -20,7 +20,7 @@ Add `@marlonmarcello/snowpack-plugin-pug` to your [Snowpack config file](https:/
 
 ### Options
 
-You can pass all default [Pug Options](https://pugjs.org/api/reference.html#options) plus:
+You can pass all default [Pug options](https://pugjs.org/api/reference.html#options) plus:
 
 - `data: object` - Any data that you would like available globaly to templates
 
