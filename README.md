@@ -64,3 +64,4 @@ mount: {
   src: { url: '/dist' },
 }
 ```
+For the discussion on this issue see [#4](https://github.com/marlonmarcello/snowpack-plugin-pug/issues/4#issuecomment-807180519)
