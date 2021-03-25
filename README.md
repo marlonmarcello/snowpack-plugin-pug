@@ -57,7 +57,7 @@ html(lang="en")
 ### create-snowpack-app
 If you've used `create-snowpack-app` to bootstrap your project you might have a `src/` and a `public/` directory.  
 By default, the `/public` directory is set up as static, so Pug files there won't be compiled to HTML files.  
-The solution is to change the `/public` directory to **not** be static in `snowpack.config.js`. Then Pug files will get compiled.
+The solution is to change the `/public` directory to **not** be static in `snowpack.config.js`.  
 ```js
 mount: {
   public: { url: '/', static: false },
