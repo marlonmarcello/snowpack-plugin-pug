@@ -26,7 +26,8 @@ You can pass all default [Pug options](https://pugjs.org/api/reference.html#opti
 
 ### Example
 
-```json
+```js
+// snowpack.config.js
 {
   "plugins": [
     [
@@ -59,9 +60,12 @@ If you've used `create-snowpack-app` to bootstrap your project you might have a 
 By default, the `/public` directory is set up as static, so Pug files there won't be compiled to HTML files.  
 The solution is to change the `/public` directory to **not** be static in `snowpack.config.js`.  
 ```js
-mount: {
-  public: { url: '/', static: false },
-  src: { url: '/dist' },
+// snowpack.config.js
+{
+  mount: {
+    public: { url: '/', static: false },
+    src: { url: '/dist' },
+  }
 }
 ```
 For the discussion on this issue see [#4](https://github.com/marlonmarcello/snowpack-plugin-pug/issues/4#issuecomment-807180519)
